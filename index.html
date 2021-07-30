@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Currency Exchenge</title>
+</head>
+<body>
+    <div class="app">
+        <div class="logo">
+            <img src="./exch-img.png"/>
+        </div>
+        
+        <div class="cur-one">
+            <div class="cur-one__name">currency name</div>
+            <select id="cur-one__select">
+                <option value="USD" selected>USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="MDL">MDL</option>
+            </select>
+            <input 
+                type="number" 
+                value="1" 
+                placeholder="0" 
+                id="cur-one__input"
+            >
+        </div>
+        <div class="cur-swap">
+            <button type="button" id="swap-button">swap</button>
+            <span class="rate" id="rate"></span>
+        </div>
+        <div class="cur-two">
+            <div class="cur-two__name">currency name</div>
+            <select id="cur-two__select">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="MDL">MDL</option>
+            </select>
+            <input 
+                type="number" 
+                id="cur-two__input"
+                value=""
+            >
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

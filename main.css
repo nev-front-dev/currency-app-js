@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    color: steelblue;
+    }
+
+.app{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 300px;
+    font-size: 18px;
+}
+
+.cur-one__name,
+.cur-two__name{
+    margin-left: 3px;
+}
+
+.app button{
+    border: none;
+    border-radius: 3px;
+    background: steelblue;
+    color: #fff;
+}
+
+.app select{
+    border: none
+
+}
+
+.app input{
+    padding-left: 10px;
+    border: none
+}
+
+button,select, input:focus{
+    outline: none;
+}
+
+.logo{
+    width: 300px;
+    justify-content: center;
+}
+
+.logo img{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+
+.cur-one,
+.cur-swap,
+.cur-two{
+    margin: 10px auto 0px;
+}
